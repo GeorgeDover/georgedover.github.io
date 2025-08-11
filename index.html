@@ -1,232 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="George Dover's Profile Page" />
-        <meta name="author" content="George Dover" />
-        <title>George Dover - Sr SW Eng</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">George Dover</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" 
-                                                    src="assets/img/profile.jpg" alt="" /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                </ul>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="George Dover's Portfolio - Senior Software Engineer" />
+    <meta name="author" content="George Dover" />
+    <title>George Dover - Senior Software Engineer</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v6.0.0/js/all.js" crossorigin="anonymous"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Mobile Navigation Toggle -->
+    <button class="mobile-nav-toggle" id="mobileNavToggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <a class="navbar-brand" href="#about">
+            <img class="profile-image" src="assets/img/profile.jpg" alt="George Dover profile image" />
+            <div class="profile-name">George Dover</div>
+            <div class="profile-title">he/they</div>
+        </a>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" href="#about">
+                    <i class="fas fa-user"></i>
+                    About
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#experience">
+                    <i class="fas fa-briefcase"></i>
+                    Experience
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#education">
+                    <i class="fas fa-graduation-cap"></i>
+                    Education
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">
+                    <i class="fas fa-code"></i>
+                    Skills
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- About Section -->
+        <section class="section hero-section" id="about">
+            <div class="particle" style="top: 20%; left: 10%; width: 6px; height: 6px; animation-delay: 0s;"></div>
+            <div class="particle" style="top: 60%; left: 80%; width: 8px; height: 8px; animation-delay: 2s;"></div>
+            <div class="particle" style="top: 30%; left: 70%; width: 4px; height: 4px; animation-delay: 4s;"></div>
+            
+            <div class="section-content hero-content fade-in">
+                <h1 class="hero-title">George Dover</h1>
+                <h2 class="hero-subtitle">Software Engineer</h2>
+                <p class="hero-description">
+                    Proficient frontend and fullstack developer with 6+ years total experience across 
+                    AI-driven medical platforms, CI/CD observability, email marketing SaaS, and ERP integrations. 
+                    Strong track record of leading successful projects that improve capabilities, performance, 
+                    and customer satisfaction.
+                </p>
+                
+                <div class="contact-info">
+                    <a href="mailto:gsdover9@gmail.com" class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        gsdover9@gmail.com
+                    </a>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        +1 (979) 551-6759
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Portland, Oregon, USA
+                    </div>
+                </div>
+
+                <div class="social-icons">
+                    <a class="social-icon" href="https://www.linkedin.com/in/george-dover-992ab4b6" target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="social-icon" href="https://github.com/GeorgeDover" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
             </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <span>
-                        <h1 class="mb-0">George <span class="text-primary">Dover</span></h1>
-                        <h3>he/they</h3>
-                    </span>
-                    <div class="subheading mb-5">
-                        Portland Metro Area, OR, USA
-                        <a href="mailto:gsdover9@gmail.com">gsdover9@gmail.com</a>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section experience-section" id="experience">
+            <div class="section-content fade-in">
+                <h2 class="section-title">Experience</h2>
+                
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-title">Software Engineer</h3>
+                            <div class="experience-company">Pepperchat.io</div>
+                            <div class="experience-location">Portland, Oregon, USA (Remote) • Freelance</div>
+                        </div>
+                        <div class="experience-duration">March 2025 - Present</div>
                     </div>
-                    <p class="lead mb-5">Sr Software Engineer with experience in rapid-growth SaaS products, editing 
-                        platforms, and agile software development lifecycles.</p>
-                    <div class="social-icons">
-                        <a class="social-icon" href="https://www.linkedin.com/in/george-dover-992ab4b6">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a class="social-icon" href="https://github.com/GeorgeDover">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a class="social-icon" href="https://twitter.com/gdover9">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                        <a class="social-icon" href="https://www.facebook.com/gsdover9/">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
+                    
+                    <div class="experience-responsibilities">
+                        <div class="responsibility-section">
+                            <div class="responsibility-title">AI Integration & Platform Enhancement</div>
+                            <p class="responsibility-text">
+                                Integrated OpenAI API into medical platform frontend to expand on and standardize 
+                                user-inputted medical documentation, and track trends and insights. Refined UI to 
+                                display when categories were AI-detected in rich text editor, present modal prompts 
+                                for category fields to be generated, and remove barriers-to-entry.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Sr Software Engineer</h3>
-                            <div class="subheading mb-3">Intuit Mailchimp | Portland Metro Area, OR, USA (Remote)</div>
-                            <h5>- Editor Improvements -</h5>
-                            <p>
-                                Incorporated functionality from the previous editor (Dojo.js) into the current (React.js) 
-                                with UX and QoL improvements, such as user-defined HTML/CSS at the block level and 
-                                color-correction enforcement of hidden unsubscribe links. On-call bug-fixing and support 
-                                of other intra/extra-team initiatives.
-                            </p>
-                            <h5>- Platform Versatility -</h5>
-                            <p>
-                                Expanded the flexibility of the multichannel editing platform to support features like 
-                                multi-column designs which were not envisioned during creation. Proposed and instantiated 
-                                reallocation of resources to address architectural shortcomings in order to expedite 
-                                development of dependent projects. Provided engineering consultation and process 
-                                recommendations in the utilization of 3rd party software integrations to better understand 
-                                the customer experience. Set up ad-hoc team of engineers (in lieu of dedicated) to widen 
-                                coverage across the code-base and share knowledge.
-                            </p>
-                            <h5>- Cross-functional Collaboration -</h5>
-                            <p>
-                                Remained in close contact with engineering staff of varying areas of expertise, design, 
-                                product/project management, quality assurance, technical writing, security, abuse 
-                                prevention, etc. Sought opportunities for feedback ahead of release from all stakeholders. 
-                                Nurtured mentorships and trust between peers.
-                            </p>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-title">Software Engineer</h3>
+                            <div class="experience-company">Mozilla</div>
+                            <div class="experience-location">Portland, Oregon, USA (Remote) • Contract</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2021 - present</span></div>
+                        <div class="experience-duration">October 2024 - March 2025</div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Enterprise Resources Planning Analyst</h3>
-                            <div class="subheading mb-3">Sam Houston State University | Huntsville, Texas, USA</div>
-                            <h5>- Interfaces and API Integrations -</h5>
-                            <p>
-                                Built UIs in PHP, JavaScript, HTML, CSS, and SQL to allow non-technical management of 
-                                Ellucian ERP system, REST/SOAP APIs for synchronizing data across custom and SAAS products, 
-                                and multi-entry point data collection web apps (including HIPAA compliance) for public use.
-                            </p>
-                            <h5>- Legacy Software Maintenance -</h5>
-                            <p>
-                                Supported 20+ microservices between 1-10 years in age; adapting to align with new 
-                                regulations, processes, or aesthetic expectations. Recommended improvements, documented 
-                                unintuitive design patterns, and advocated for modernization where the value proposition 
-                                made sense.
-                            </p>
-                            <h5>- IT Support -</h5>
-                            <p>
-                                Tier 3 support and technical liaison for directors and SMEs across campus. Prioritized and 
-                                scheduled project efforts by conducting evaluations of urgency with clients after receiving 
-                                work orders and translated these into Scrum/Kanban boards based on complexity. Organized 
-                                and streamlined our Jira instance.
+                    
+                    <div class="experience-responsibilities">
+                        <div class="responsibility-section">
+                            <div class="responsibility-title">Four Keys Platform Development</div>
+                            <p class="responsibility-text">
+                                Continued development of a comprehensive four keys metrics platform using Python, Go 
+                                and YAML to monitor performance, availability, reliability, and latency across 65 
+                                microservice deployment workflows. Led the redesign of Google BigQuery four keys 
+                                metrics database structure, improving scaling potential by quartering the queries needed 
+                                and reducing bytes processed by >90%.
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2019 - July 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Software Developer</h3>
-                            <div class="subheading mb-3">Observatory Sciences Ltd. | Brighton, UK</div>
-                            <h5>- Virtual Control Panels -</h5>
-                            <p>
-                                Calculated and emulated movements made by the 2.5m telescope at Mt Abu InfraRed Observatory 
-                                (MIRO) in Rajasthan, India. Designed and created a C/C++/LabVIEW-based TCS (Telescope 
-                                Control System), allowing researchers to set and fine-tune programs with in-built safety 
-                                mechanisms.
-                            </p>
-                            <h5>- TCP/IP Communication -</h5>
-                            <p>
-                                Computation of the dynamics of the telescope were distributed across PLCs (Programmable 
-                                Logic Controllers) in an intranet-only environment, so communication protocols and 
-                                safeguards were developed in collaboration with the contractee. Accommodated for revisions 
-                                during Alpha and Beta stages.
+                        
+                        <div class="responsibility-section">
+                            <div class="responsibility-title">Project Strategy and Execution</div>
+                            <p class="responsibility-text">
+                                Independently strategized and executed the four keys expansion project from concept to 
+                                delivery, aligning with organizational goals, achieving buy-in and ensuring timely delivery. 
+                                Collaborated with SREs and service stakeholders to identify key challenges and 
+                                configurations for onboarding, addressing security concerns and ownership gaps.
                             </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2017 - March 2018</span></div>
                     </div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Surrey, Guildford, UK</h3>
-                            <div class="subheading mb-3">Master's in Physics (MPhys) with Honours</div>
-                            <p>Class: 1st | GPA: 3.73/4.25</p>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-title">Senior Software Engineer</h3>
+                            <div class="experience-company">Intuit Mailchimp</div>
+                            <div class="experience-location">Atlanta, Georgia, USA (Remote)</div>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2013 - July 2017</span></div>
+                        <div class="experience-duration">July 2021 - September 2024</div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Worthing Sixth-Form College</h3>
-                            <p>A-level Physics | A-level Mathematics | A-level Further Mathematics | AS-level History</p>
+                    
+                    <div class="experience-responsibilities">
+                        <div class="responsibility-section">
+                            <div class="responsibility-title">Editor Improvements</div>
+                            <p class="responsibility-text">
+                                Technical lead for enhancement projects in complex and historical email editor code 
+                                spaces seeking UX parity between old and new editors, including sanitized user-inputted 
+                                HTML code blocks, CAN-SPAM correction of hidden links, and interface WCAG compliance. 
+                                Expanded flexibility of the multichannel editing platform using React, HTML, CSS, Node and PHP.
+                            </p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2011 - July 2013</span></div>
+                        
+                        <div class="responsibility-section">
+                            <div class="responsibility-title">On-call Management</div>
+                            <p class="responsibility-text">
+                                Successfully resolved 15 warrooms, acted as emergency on-call engineer for 12+ months, 
+                                and championed sustainable, documented and automated on-call rotations using PagerDuty 
+                                and monitoring tools like ElasticSearch, Grafana, FullStory, and Amplitude. Assisted SREs 
+                                and DevOps diagnose batch server issues affecting thousands of users.
+                            </p>
+                        </div>
+                        
+                        <div class="responsibility-section">
+                            <div class="responsibility-title">Cross-functional Collaboration</div>
+                            <p class="responsibility-text">
+                                Maintained stakeholder trust and holistic perspective of company needs via regular 
+                                contact with engineering, design, product management, quality assurance, security, 
+                                and abuse prevention colleagues. Nurtured mentorships and team building through 
+                                knowledge-sharing sessions and organizing meet-ups.
+                            </p>
+                        </div>
                     </div>
                 </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-react" title="React.js" alt="React"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js-square" title="JavaScript" alt="JavaScript"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-html5" title="HTML5" alt="HTML5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt" title="CSS3" alt="CSS3"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-php" title="PHP" alt="PHP"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-python" title="Python" alt="Python"></i></li>
-                        <li class="list-inline-item"><i class="fas fa-database" title="SQL" alt="SQL"></i></li>
-                        <li class="list-inline-item"><img src="assets/img/labview.png" title="LabVIEW" alt="LabVIEW" style="width:200px;height:40px"></i></li>
-                        <br>
-                        <li class="list-inline-item"><i class="fab fa-git" title="Git" alt="Git"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-gitlab" title="GitLab" alt="GitLab"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-github" title="Github" alt="Github"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-jira" title="Jira" alt="Jira"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-confluence" title="Confluence" alt="Confluence"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-jenkins" title="Jenkins" alt="Jenkins"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-aws" title="AWS" alt="AWS"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Workflow</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <h3 class="experience-title">ERP Analyst</h3>
+                            <div class="experience-company">Sam Houston State University</div>
+                            <div class="experience-location">Huntsville, Texas, USA</div>
+                        </div>
+                        <div class="experience-duration">July 2019 - July 2021</div>
+                    </div>
+                    
+                    <div class="experience-responsibilities">
+                        <div class="responsibility-section">
+                            <div class="responsibility-title">Interfaces and API Integrations</div>
+                            <p class="responsibility-text">
+                                Built fullstack web apps in PHP, JS, HTML, CSS, and SQL to allow non-technical management 
+                                of ERP system, REST/SOAP APIs to sync custom apps and SaaS products, and publicly 
+                                available HIPAA-compliant methods for gathering and storing Covid-19 infection data. 
+                                Linked analytics between custom and ERP systems for real-time reporting.
+                            </p>
+                        </div>
+                        
+                        <div class="responsibility-section">
+                            <div class="responsibility-title">Legacy Software Maintenance</div>
+                            <p class="responsibility-text">
+                                Supported 20+ active microservices between 1-15 years in age, adapting to align with new 
+                                regulations and processes. Documented unintuitive design patterns and advocated for 
+                                modernization where the value proposition made sense. Provided Tier 3 support and 
+                                technical liaison for directors and staff across campus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section" id="education">
+            <div class="section-content fade-in">
+                <h2 class="section-title">Education</h2>
+                
+                <div class="education-item">
+                    <div class="education-school">University of Surrey, Guildford, UK</div>
+                    <div class="education-degree">Master of Physics (MPhys) with Honours</div>
+                    <div class="education-details">
+                        <span>3.83 GPA (equivalent) | 1st-class with Honors</span><br>
+                        <span>September 2013 - July 2017</span><br><br>
+                        <strong>Publications:</strong><br>
+                        • Carbon Nanotube Dry Spinnable Sheets for Solar Selective Coatings by Lamination (Martinez, 2016)<br>
+                        • Biophysical interactions between pancreatic cancer cells and pristine carbon nanotube substrates (Matta-Domjan, 2017)
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-school">Worthing Sixth-Form College</div>
+                    <div class="education-degree">A-Levels</div>
+                    <div class="education-details">
+                        A-level Physics | A-level Mathematics | A-level Further Mathematics | AS-level History<br>
+                        <span>September 2011 - July 2013</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="section-content fade-in">
+                <h2 class="section-title">Skills</h2>
+                
+                <div class="skills-grid">
+                    <div class="skills-category">
+                        <div class="skills-category-title">
+                            <i class="fas fa-code"></i>
+                            Languages & Frameworks
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-tag">JavaScript (React, Redux, Node, Express, Next)</span>
+                            <span class="skill-tag">TypeScript (React)</span>
+                            <span class="skill-tag">PHP (Laravel)</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Angular</span>
+                            <span class="skill-tag">Vue</span>
+                            <span class="skill-tag">Go</span>
+                            <span class="skill-tag">Rust</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">LESS</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">GraphQL</span>
+                            <span class="skill-tag">YAML</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <div class="skills-category-title">
+                            <i class="fas fa-tools"></i>
+                            Tools & Technologies
+                        </div>
+                        <div class="skills-list">
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">GitLab</span>
+                            <span class="skill-tag">Jenkins</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">ArgoCD</span>
+                            <span class="skill-tag">GitHub Actions</span>
+                            <span class="skill-tag">Terraform</span>
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">GCP</span>
+                            <span class="skill-tag">Azure</span>
+                            <span class="skill-tag">BigQuery</span>
+                            <span class="skill-tag">Elasticsearch</span>
+                            <span class="skill-tag">Grafana</span>
+                            <span class="skill-tag">Prometheus</span>
+                            <span class="skill-tag">PagerDuty</span>
+                            <span class="skill-tag">Jira</span>
+                            <span class="skill-tag">Confluence</span>
+                            <span class="skill-tag">Amplitude</span>
+                            <span class="skill-tag">FullStory</span>
+                            <span class="skill-tag">Looker</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <div class="skills-category-title">
+                        <i class="fas fa-project-diagram"></i>
+                        Core Competencies
+                    </div>
+                    <ul class="workflow-list">
+                        <li class="workflow-item">
+                            <i class="fas fa-check-circle"></i>
                             Agile Development; Scrum & Kanban
                         </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            ITIL 4 Certified, customer-centric service
+                        <li class="workflow-item">
+                            <i class="fas fa-check-circle"></i>
+                            Frontend and Fullstack Web Development
                         </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Experienced in maintaining legacy applications
+                        <li class="workflow-item">
+                            <i class="fas fa-check-circle"></i>
+                            CI/CD, APIs, and Observability
                         </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Advocate for cross-functional teamwork and developer-first security
+                        <li class="workflow-item">
+                            <i class="fas fa-check-circle"></i>
+                            Database Design and Secure Coding
+                        </li>
+                        <li class="workflow-item">
+                            <i class="fas fa-check-circle"></i>
+                            Team Leadership and Cross-functional Collaboration
+                        </li>
+                        <li class="workflow-item">
+                            <i class="fas fa-check-circle"></i>
+                            On-call Management and Support Engineering
+                        </li>
+                        <li class="workflow-item">
+                            <i class="fas fa-check-circle"></i>
+                            HIPAA Compliance and Security Best Practices
                         </li>
                     </ul>
                 </div>
-            </section>
-        </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+            </div>
+        </section>
+    </main>
+
+    <!-- Custom JavaScript -->
+    <script src="js/scripts.js"></script>
+</body>
 </html>
