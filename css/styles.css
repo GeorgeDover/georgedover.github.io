@@ -147,6 +147,8 @@ body {
     width: 100%;
 }
 
+.fa { margin-right: 5px; }
+
 /* Hero Section */
 .hero-section {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
