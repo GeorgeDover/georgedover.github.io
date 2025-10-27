@@ -334,6 +334,13 @@ body {
     transform: translateY(-2px);
 }
 
+.education-header {
+    display: flex;
+    justify-content: between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
 .education-school {
     font-size: 1.3rem;
     font-weight: 600;
