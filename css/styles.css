@@ -143,7 +143,6 @@ body {
 }
 
 .section-content {
-    max-width: 960px;
     width: 100%;
 }
 
@@ -283,6 +282,8 @@ body {
     color: var(--text-muted);
     background: var(--surface);
     padding: 0.25rem 0.75rem;
+    margin-left: 0.25rem;
+    margin-top: 0.25rem;
     border-radius: 20px;
     font-weight: 500;
 }
@@ -349,6 +350,17 @@ body {
 
 .education-details {
     color: var(--text-secondary);
+}
+
+.education-duration {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    background: var(--surface);
+    padding: 0.25rem 0.75rem;
+    margin-left: 0.25rem;
+    margin-top: 0.25rem;
+    border-radius: 20px;
+    font-weight: 500;
 }
 
 /* Skills Section */
