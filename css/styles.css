@@ -366,6 +366,7 @@ body {
     align-self: flex-start;
     padding: 0.25rem 0.75rem;
     margin-left: 0.25rem;
+    margin-top: -0.5rem;
     border-radius: 20px;
     font-weight: 500;
 }
