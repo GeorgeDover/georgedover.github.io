@@ -281,9 +281,9 @@ body {
     font-size: 0.9rem;
     color: var(--text-muted);
     background: var(--surface);
+    align-self: flex-start;
     padding: 0.25rem 0.75rem;
     margin-left: 0.25rem;
-    margin-top: 0.25rem;
     border-radius: 20px;
     font-weight: 500;
 }
@@ -363,9 +363,9 @@ body {
     font-size: 0.9rem;
     color: var(--text-muted);
     background: var(--surface);
+    align-self: flex-start;
     padding: 0.25rem 0.75rem;
     margin-left: 0.25rem;
-    margin-top: 0.25rem;
     border-radius: 20px;
     font-weight: 500;
 }
@@ -490,11 +490,6 @@ body {
 
     .experience-header {
         flex-direction: column;
-    }
-
-    .experience-duration {
-        align-self: flex-start;
-        margin-top: 0.5rem;
     }
 }
 
